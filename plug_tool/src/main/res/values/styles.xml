@@ -1,0 +1,7 @@
+<resources>
+
+    <!--    设置插件apk的主题  -->
+    <style name="PlugTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--user set theme-->
+    </style>
+</resources>

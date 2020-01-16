@@ -1,0 +1,2 @@
+include ':app', ':plug_tool', ':apk_one'
+rootProject.name='demo'
