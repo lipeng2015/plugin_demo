@@ -10,7 +10,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="90dp"
         android:gravity="center"
-        android:text="当前是主宿主apk \n 插件apk加载中..."
+        android:text="当前是主宿主apk"
         android:textColor="#ff0000"
         android:textSize="16sp" />
 
@@ -19,6 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:visibility="gone"
         android:layout_marginTop="140dp" />
 
     <Button
@@ -30,5 +31,12 @@
         android:text="打开第一个apk中的界面"
         android:visibility="gone" />
 
-
+    <Button
+        android:id="@+id/load_apk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="加载插件apk"
+        android:visibility="visible" />
 </RelativeLayout>
